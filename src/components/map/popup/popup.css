@@ -1,0 +1,101 @@
+.popup-container {
+  width: 300px;
+  height: auto;
+  display: flex;
+  position: relative;
+  min-height: 400px;
+  align-items: flex-end;
+  border-radius: 35px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.popup-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.popup-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 35px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.popup-close-popup {
+  top: 5px;
+  fill: rgba(255, 255, 255, 0.95);
+  left: 20px;
+  width: 30px;
+  bottom: 0px;
+  height: 30px;
+  position: absolute;
+  transition: 0.3s;
+}
+.popup-close-popup:hover {
+  width: 35px;
+  height: 35px;
+  box-shadow: 5px 5px 10px 0px rgba(212, 212, 212, 0.27),
+    -5px -5px 10px 0px rgba(212, 212, 212, 0.17);
+}
+.popup-next-image {
+  top: 45%;
+  fill: #ffffff;
+  right: 30px;
+  width: 50px;
+  bottom: 45%;
+  height: 50px;
+  padding: 10px;
+  z-index: 100;
+  position: absolute;
+  box-shadow: 2px 2px 1px 0px rgba(212, 212, 212, 0.09),
+    -2px -2px 10px 0px rgba(212, 212, 212, 0.11);
+  transition: 0.3s;
+  border-color: rgba(255, 255, 255, 0.3);
+  border-width: 1px;
+  border-radius: 50%;
+}
+.popup-next-image:hover {
+  padding: 5px;
+}
+.popup-heading {
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.popup-about {
+  color: #393939;
+  width: 70%;
+  margin-top: 17px;
+  text-align: right;
+  margin-right: 5px;
+}
+.popup-button-open-data {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 50px;
+  display: flex;
+  margin-top: 25px;
+  transition: 0.3s;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  justify-content: center;
+  background-color: #00c692;
+}
+.popup-button-open-data:hover {
+  border-radius: 20px;
+  background-color: rgba(0, 129, 87, 0.83);
+}
+.popup-text {
+  color: #ffffff;
+}
+@media (max-width: 479px) {
+  .popup-container {
+    width: 65%;
+  }
+}

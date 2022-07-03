@@ -1,8 +1,9 @@
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
-
+import PopupUi from "./popupui";
 const CustomPopup = (props) => {
   return (
     <Popup
+      className=""
       longitude={35.50077022102684}
       latitude={32.96614971634972}
       onClose={() => props.setPopUpdData(null)}
@@ -10,7 +11,7 @@ const CustomPopup = (props) => {
       // closeOnClick={false}
       offsetTop={-30}
     >
-      <p>{props.name}</p>
+      <PopupUi />
     </Popup>
   );
 };

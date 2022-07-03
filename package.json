@@ -9,6 +9,7 @@
   "main": "src/index.js",
   "dependencies": {
     "mapbox-gl": "2.9.1",
+    "prop-types": "15.8.1",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-map-gl": "7.0.16",

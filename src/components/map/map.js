@@ -4,7 +4,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import mapboxgl from "mapbox-gl";
 
 import "./map.css";
-import MyPopUp from "./Popup";
+import MyPopUp from "./popup/Popup";
 import Map, { Marker, Popup } from "react-map-gl";
 
 export default function App2() {
